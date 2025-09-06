@@ -1,0 +1,86 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: 100%;
+    background: #4070f4;
+}
+
+/*Estilização dos circulos*/
+body section .dots #animate1{
+    --i:1;
+}
+body section .dots #animate2{
+    --i:2;
+}
+body section .dots #animate3{
+    --i:3;
+}
+body section .dots #animate4{
+    --i:4;
+}
+body section .dots #animate5{
+    --i:5;
+}
+body section .dots #animate6{
+    --i:6;
+}
+body section .dots #animate7{
+    --i:7;
+}
+body section .dots #animate8{
+    --i:8;
+}
+body section .dots #animate9{
+    --i:9;
+}
+body section .dots #animate10{
+    --i:10;
+}
+body section .dots #animate11{
+    --i:11;
+}
+body section .dots #animate12{
+    --i:12;
+}
+
+body section .dots #animate13{
+    --i:13;
+}
+body section .dots #animate14{
+    --i:14;
+}
+body section .dots #animate15{
+    --i:15;
+}
+
+
+section .dots span{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    border-radius: 50%;
+    transform: rotate(calc(var(--i) * (360deg / 15))) translateY(35px);
+    animation: animate 1.5s linear infinite;
+    animation-delay: calc(var(--i) * 0.1s);
+    opacity: 0;
+}
+@keyframes animate{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
