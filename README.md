@@ -13,3 +13,7 @@ Neste projeto, utilizei a tag span para criar múltiplos elementos, o que me aju
 #### CSS3
 
 Eu me aprofundei em várias técnicas CSS, começando pelo uso de variáveis personalizadas (--i) que me permitiram manipular a animação de cada círculo de forma individual. Usei a propriedade transform com a função rotate() e translateY() para posicionar os elementos em um círculo perfeito. A animação foi criada com @keyframes, que controlam o estado inicial e final da opacidade de cada círculo, e a propriedade animation-delay foi essencial para criar a ilusão de um movimento contínuo e progressivo.
+
+### 💻 Como Executar:
+
+Instale o arquivo no seu computador, e abra no seu navegador de preferencia.
